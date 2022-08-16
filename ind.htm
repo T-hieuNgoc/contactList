@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <!-- input record -->
+        <div class="recordInput">
+            <h2>contact details</h2>
+            <div class="entryForm">
+                <form action="">
+                    <label for="name">name</label>
+                    <input type="text" id="name">
+
+                    <label for="address">address</label>
+                    <input type="text" id="address">
+
+                    <label for="contactNum">contact number</label>
+                    <input type="number" id="number">
+                </form>
+                <!-- alert message -->
+                <span class="message ">messsaae erreo</span>
+
+                <div class="inputBtn">
+                    <button type="submit" id="submitBtn">
+                        <span>
+                            <i class='bx bx-plus'></i>
+                        </span>add contact
+                    </button>
+
+                    <button id="cancelBtn">
+                        <span>
+                            <i class='bx bx-x'></i>
+                        </span>cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- end record -->
+
+        <!-- display record -->
+        <div class="recordDisplay">
+            <h2>available contact:</h2>
+            <!-- reset btn -->
+            <button id="resetBtn">
+                reset
+            </button>
+
+            <div class="recordContainer">
+                <!-- single record -->
+                <!-- <div class="recordItem">
+                    <div class="record-el">
+                        <span id="labelling">contact ID:</span>
+                        <span id="contact-id-content">1</span>
+                    </div>
+
+                    <div class="record-el">
+                        <span id="labelling">name:</span>
+                        <span id="name-content">joe</span>
+                    </div>
+    
+                    <div class="record-el">
+                        <span id="labelling">address:</span>
+                        <span id="address-content">ohio</span>
+                    </div>
+    
+                    <div class="record-el">
+                        <span id="labelling">contact number:</span>
+                        <span id="contactNum-content">123-456-789</span>
+                    </div>
+
+                    <button id="deleteBtn">
+                        <span>
+                            <i class='bx bxs-trash'></i>
+                        </span>delete
+                    </button>
+                </div> -->
+                <!-- end single record-->
+
+            </div>
+        </div>
+        <!--end display record -->
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
